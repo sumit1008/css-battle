@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="home">Home</div>
+            <div class="blog">Blog</div>
+            <div class="about">About</div>
+            <div class="Contacts">Contact</div>
+        </header>
+        <main>
+            <aside>
+                <h3>JUST SAY HELLO!</h3>
+                <p>JUST LET US KNOW MORE ABOUT YOU!</p>
+                <form action="/submit_message" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label><br>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name:</label><br>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Contact:</label><br>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message:</label><br>
+                        <br>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <input type="submit" value="SUBMIT">
+                </form>
+                
+            </aside>
+            <section>
+                <h1>Contact Information</h1>
+                <p>CSED, MNNIT ALLAHABAD</p>
+                <p>PRAYAGRAJ - 211004</p>
+                <br>
+                <p>CALL US: +91-4794685713</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
