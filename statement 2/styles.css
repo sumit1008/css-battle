@@ -1,0 +1,46 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%; /* Make the image round */
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    margin: 20px auto; /* Center the image */
+}
+
+.follower-posts p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.message-btn, .follow-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Change to your desired color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.message-btn:hover, .follow-btn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
